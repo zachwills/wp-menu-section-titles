@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Menu Section Titles
- * Plugin URI: http://zachwills.net/plugins/menu-section-titles-wp-plugin
+ * Plugin URI: https://github.com/zachwills/wp-menu-section-titles
  * Description:  Add the ability to create menu items that aren't a link. Useful in scenarios like a large footer menu where you want to have sections with links underneath the section titles.
  * Version: 1.0
  * Author: Zach Wills
