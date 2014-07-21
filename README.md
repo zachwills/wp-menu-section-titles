@@ -20,13 +20,13 @@ Add a menu link with the appropriate hashes (e.g. for an `<h1>` set the link o `
 
 Currently, you can use the following:
 
-* h1 (#h1)
-* h2 (#h2)
-* h3 (#h3)
-* h4 (#h4)
-* h5 (#h5)
-* h6 (#h6)
-* span (#span)
+* h1 (`#h1`)
+* h2 (`#h2`)
+* h3 (`#h3`)
+* h4 (`#h4`)
+* h5 (`#h5`)
+* h6 (`#h6`)
+* span (`#span`)
 
 
 ### Changelog
