@@ -5,13 +5,12 @@ Add the ability to create menu items that aren't a link. Useful in scenarios lik
 
 ### Installation
 
-Installation is simple.
-
 **Automatic**
 
 Coming soon
 
 **Manual**
+
 1. Upload `menu-section-titles` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
