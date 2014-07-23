@@ -31,46 +31,21 @@ function zw_menu_section_titles ( $items, $args ) {
 		// set the href to a var
 		$tag_href = $tag->getAttribute('href');
 
-		// check if it equals the hash for h1
-		if( $tag_href == '#h1' ) {
-			// create the new element
-			$new_element = $dom->createElement('h1', $tag->nodeValue);
-		}
+		// get the hash
+		$tag_base = explode("#", $tag_href);
 
-		// check if it equals the hash for h2
-		if( $tag_href == '#h2' ) {
-			// create the new element
-			$new_element = $dom->createElement('h2', $tag->nodeValue);
-		}
+		if( count($tag_base) > 1 ) {
+			// set it to what we care about
+			$tag_base = $tag_base[1];
 
-		// check if it equals the hash for h3
-		if( $tag_href == '#h3' ) {
-			// create the new element
-			$new_element = $dom->createElement('h3', $tag->nodeValue);
-		}
+			// get string between parenthsis
+			preg_match('#\((.*?)\)#', $tag_base, $match);
 
-		// check if it equals the hash for h4
-		if( $tag_href == '#h4' ) {
-			// create the new element
-			$new_element = $dom->createElement('h4', $tag->nodeValue);
-		}
-
-		// check if it equals the hash for h5
-		if( $tag_href == '#h5' ) {
-			// create the new element
-			$new_element = $dom->createElement('h5', $tag->nodeValue);
-		}
-
-		// check if it equals the hash for h6
-		if( $tag_href == '#h6' ) {
-			// create the new element
-			$new_element = $dom->createElement('h6', $tag->nodeValue);
-		}
-
-		// check if it equals the hash for span
-		if( $tag_href == '#span' ) {
-			// create the new element
-			$new_element = $dom->createElement('span', $tag->nodeValue);
+			// check to see if there were parenthesis
+			if( isset($match[1]) && !empty($match[1]) ) {
+				// create the new element
+				$new_element = $dom->createElement($match[1], $tag->nodeValue);
+			}
 		}
 
 		// make sure we have a new element and it isnt empty

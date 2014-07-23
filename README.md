@@ -16,22 +16,26 @@ Coming soon
 
 ## Usage
 
-Add a menu link with the appropriate hashes (e.g. for an `<h1>` set the link o `#h1`) through `Appearances -> Menu`.
+Add a menu link with the appropriate hash (e.g. for an `<h1>` set the link to `#(h1)`) through `Appearances -> Menu`.
 
-Currently, you can use the following:
+It is fully dynamic, so anything you put inside the `#()`.
 
-* h1 (`#h1`)
-* h2 (`#h2`)
-* h3 (`#h3`)
-* h4 (`#h4`)
-* h5 (`#h5`)
-* h6 (`#h6`)
-* span (`#span`)
+Examples:
+
+* <h1> => `#(h1)`
+* <h2> => `#(h2)`
+* <span> => `#(span)`
+* <div> => `#(div)`
+* <p> => `#(p)`
+* <strong> => `#(strong)`
 
 
 ## Changelog
 
-Current active version: 1.0
+Current active version: 1.1
 
-### 1.0
+### 1.1 (7-23-14)
+* Made plugin more dynamic so you can add any element to your menu
+
+### 1.0 (7-21-14)
 * Initial Plugin Launch
