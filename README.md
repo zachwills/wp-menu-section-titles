@@ -22,12 +22,12 @@ It is fully dynamic, so anything you put inside the `#()`.
 
 Examples:
 
-* <h1> => `#(h1)`
-* <h2> => `#(h2)`
-* <span> => `#(span)`
-* <div> => `#(div)`
-* <p> => `#(p)`
-* <strong> => `#(strong)`
+* h1 => `#(h1)`
+* h2 => `#(h2)`
+* span => `#(span)`
+* div => `#(div)`
+* p => `#(p)`
+* strong => `#(strong)`
 
 
 ## Changelog
