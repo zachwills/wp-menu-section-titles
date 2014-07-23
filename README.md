@@ -18,7 +18,7 @@ Coming soon
 
 Add a menu link with the appropriate hash (e.g. for an `<h1>` set the link to `#(h1)`) through `Appearances -> Menu`.
 
-It is fully dynamic, so anything you put inside the `#()`.
+It is fully dynamic, so anything you put inside the `#()` will render out as an element.
 
 Examples:
 
