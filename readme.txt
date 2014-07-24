@@ -7,13 +7,13 @@ Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Add the ability to create menu items that aren't a link. Useful in scenarios like a large footer menu where you want to have sections with links underneath the section titles.
-
-[GitHub Repo](https://github.com/zachwills/wp-menu-section-titles "WP Menu Section Titles")
+Add the ability to create menu items that aren't a link.
 
 == Description ==
 
 Add the ability to create menu items that aren't a link. Useful in scenarios like a large footer menu where you want to have sections with links underneath the section titles.
+
+[GitHub Repo](https://github.com/zachwills/wp-menu-section-titles "WP Menu Section Titles")
 
 == Installation ==
 
