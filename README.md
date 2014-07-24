@@ -32,7 +32,10 @@ Examples:
 
 ## Changelog
 
-Current active version: 1.1
+Current active version: 1.1.1
+
+### 1.1.1 (7-24-14)
+* Small fix to wp installation guide
 
 ### 1.1 (7-23-14)
 * Made plugin more dynamic so you can add any element to your menu

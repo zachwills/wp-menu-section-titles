@@ -3,7 +3,7 @@ Contributors: oxymoron
 Tags: nav menu, menu, menu title, menu columns
 Requires at least: 3.0.1
 Tested up to: 3.9.1
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,7 @@ Add the ability to create menu items that aren't a link. Useful in scenarios lik
 
 1. Upload `menu-section-titles` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Add a menu link with the appropriate hashes (e.g. for an `<h1>` set the link o `#h1`)
+3. Add a menu link with the appropriate hashes (e.g. for an `<h1>` set the link o `#(h1)`)
 
 == Frequently Asked Questions ==
 
