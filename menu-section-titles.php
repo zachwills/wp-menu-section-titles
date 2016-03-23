@@ -59,5 +59,5 @@ function zw_menu_section_titles ( $items, $args ) {
 	}
 
 	// return the string
-	return $dom->saveHTML();
+	return preg_replace('~<(?:!DOCTYPE|/?(?:html|body))[^>]*>\s*~i', '', $dom->saveHTML());
 }
